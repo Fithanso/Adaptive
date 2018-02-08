@@ -21,6 +21,7 @@ img {
 
 ul {
 	list-style-type: none;
+    text-align: center;
 }
 
 #logo {
@@ -30,25 +31,26 @@ ul {
 	border: 1px solid transparent;
 	border-radius: 50%;
 	text-align: center;
-	background-size: cover;
-	margin-left: 5%;
+    background-size: cover;
+    margin: 20px auto;
 }
 
 #menu {
 	line-height: 300%;
 	text-align: left;
-	margin-left: 5%;
 	margin-top: 20px;
 }
 
 #aside {
 	height: 500px;
+    position: relative;
 }
 
 #wrap {
-	position: absolute;
-	margin-top: 20px;
-	margin-left: 6%;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -286,7 +288,6 @@ ul {
 
 @media screen and (max-width: 995px) {
 	#wrap {
-		margin-left: 4%;
 	}
 
 	.lower_divs {
@@ -295,8 +296,6 @@ ul {
 }
 
 @media screen and (max-width: 960px) {
-
-
 
 	#forms {
 		margin-left: 5%;
@@ -310,7 +309,6 @@ ul {
 @media screen and (max-width: 900px) {
 
 	#logo {
-		margin-left: 4%;
 	}
 
 	.container .cols .col-13 {
@@ -335,7 +333,6 @@ ul {
 @media screen and (max-width: 780px) {
 
 	#wrap {
-		margin-left: 4%;
 	}
 
 	#forms {
@@ -351,13 +348,11 @@ ul {
 
 @media screen and (max-width: 730px) {
 	#wrap {
-		margin-left: 2%;
 	}
 }
 
 @media screen and (max-width: 680px) {
 	#logo {
-		margin-left: 1%;
 	}
 
 	.feast {
@@ -393,9 +388,6 @@ ul {
 	}
 
 	#menu {
-		width: 500px;
-		margin-top: 2%;
-		margin-left: 18%;/*888888888888888888888888888888888888888888*/
 	}
 
 	.navelement {
@@ -404,8 +396,6 @@ ul {
 	}
 
 	#logo {
-		margin-top: -2%;
-		margin-left: 40%;
 	}
 
 	.divs_4 {
@@ -457,9 +447,9 @@ ul {
 }
 
 @media screen and (max-width: 445px) {
-	#menu {
+/*	#menu {
 		margin-top: 35%;
-	}
+	}*/
 
 	.div_text h4 {
 		font-size: 0.9em;
@@ -501,11 +491,10 @@ ul {
 	}
 
 	.lower_divs {
-		height: 80%;
+		height: 70%;
 	}
 
 	#menu {
-		margin-left: 0.1%;
 	}
 }
 
