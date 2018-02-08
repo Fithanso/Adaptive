@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Адаптивная вёрстка</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet"/>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script type="text/javascript">
+		$(document).ready (function () {
+			$("#hide").bind ("click", hideComments );
+			$("#show").bind ("click", showComments );
+
+		});
+
+		function hideComments () {
+			$("#comments").slideUp(1000, function () {
+				$("#hide").hide();
+				$("#show").show();
+			});
+		}
+
+		function showComments () {
+			$("#comments").slideDown(1000, function () {
+				$("#hide").show();
+				$("#show").hide();
+
+			});
+		}
+	
+    </script>
+
+</head>
+<body>
+
+<div class="container">
+ <div id="aside" class="cols col-3">
+    <div id="wrap">
+	   <div id="logo"></div>
+	   <div id="menu">
+		   <ul>
+			   <li class="navelement"><a href="#">Tastemakers</a></li>
+			   <li class="navelement"><a href="#">Blog</a></li>
+			   <li class="navelement"><a href="#">The A-list</a></li>
+			   <li class="navelement"><a href="#">Contribute</a></li>
+			   <li class="navelement"><a href="#">About</a></li>
+		   </ul>
+	   </div>
+	</div>
+ </div>
+
+	<div class="cols col-9" id="main">
+		<div class="cols col-12"><img class="img" src="http://2.bp.blogspot.com/-__zWIxEzmiE/T9XENbGJuPI/AAAAAAAAB_k/uLonNXbpons/s1600/Full+Hd+Duvarka%C4%9F%C4%B1tlar%C4%B1+1+(49).jpg"></div>
+		<div class="cols col-3 divs_4" id="first">
+			<div class="div_text">
+				<h4><a href="#">Tastemakers</a></h4>
+				<p class="feast">Feast your eyes and get recipes!</p>
+			</div>
+		</div>
+		<div class="cols col-3 divs_4" id="second">
+			<div class="div_text">
+				<h4><a href="#">Tastemakers</a></h4>
+				<p class="feast">Feast your eyes and get recipes!</p>
+			</div>
+		</div>
+		<div class="cols col-3 divs_4" id="third">
+				<div class="div_text">
+				<h4><a href="#">Tastemakers</a></h4>
+				<p class="feast">Feast your eyes and get recipes!</p>
+			</div>
+		</div>
+		<div class="cols col-3 divs_4" id="fourth">
+				<div class="div_text">
+				<h4><a href="#">Tastemakers</a></h4>
+				<p class="feast">Feast your eyes and get recipes!</p>
+			</div>
+		</div>
+		<div class="cols col-12" id="red">
+			<div id="middle_text">
+				<p>Sign up for our newsletter to receive a handpicked selection of the best stories, recipes, and news, delivered weekly to your inbox.</p>
+			</div>
+		  <div id="forms">
+			<input id="email" type="email" name="email" placeholder="  Email">
+			<button type="submit" id="sub_button">Subscribe</button>
+		  </div>
+		</div>
+
+		<div id="lower">
+			<div class="cols col-13 lower_divs" id="fifth">
+				<a href="../test/article.html"><div class="img_div"><img src="http://s1.1zoom.me/big7/745/Hamburger_Fast_food_333580.jpg"></div></a>
+				<div class="lower_text">
+					<a href="../test/article.html"><h3>Random text</h3>
+					<p>Sign up for our newsletter to receive a handpicked selection of the best stories, recipes, and news, delivered weekly to your inbox.</p></a>
+					<p class="date"> May 4,2018</p>
+				</div>
+			</div>
+
+			<div class="cols col-13 lower_divs" id="sixth">
+				<a href="#"><div class="img_div"><img src="http://www.fotoman.name/wp-content/uploads/2013/04/food3.jpg"></div></a>
+				<div class="lower_text">
+					<a href="#"><h3>Random text</h3>
+					<p>Sign up for our newsletter to receive a handpicked selection of the best stories, recipes, and news, delivered weekly to your inbox.</p></a>
+					<p class="date"> May 4,2018</p>
+				</div>
+			</div>
+
+			<div class="cols col-13 lower_divs" id="seventh">
+				<a href="#"><div class="img_div"><img src="http://st.gdefon.com/wallpapers_original/s/576106_eda_blinyi_klubnika_med_krasnaya_oladi_md_djem_yag_5530x3790_(www.GdeFon.ru).jpg"></div></a>
+				<div class="lower_text">
+					<a href="#"><h3>Random text</h3>
+					<p>Sign up for our newsletter to receive a handpicked selection of the best stories, recipes, and news, delivered weekly to your inbox.</p></a>
+					<p class="date"> May 4,2018</p>
+				</div>
+			</div>
+
+			<div class="cols col-13 lower_divs" id="eighth">
+				<a href="#"><div class="img_div"><img src="http://s7.favim.com/orig/150823/donuts-food-lol-miam-Favim.com-3170824.jpg"></div></a>
+				<div class="lower_text">
+					<a href="#"><h3>Random text</h3>
+					<p>Sign up for our newsletter to receive a handpicked selection of the best stories, recipes, and news, delivered weekly to your inbox.</p></a>
+					<p class="date"> May 4,2018</p>
+				</div>
+			</div>
+
+		</div>
+     <div id="links"><!--не работает margin-top-->
+	   <input type="button" id="hide" class = "comlinks" onclick="return false" value="Скрыть комментарии">
+	   <input type="button" id="show" class = "comlinks" style="display: none;" onclick="return false" value="Показать комментарии">
+     </div>
+	   <div id="comments">
+		   <p>Комментарий №1</p>
+		   <p>Комментарий №2</p>
+		   <p>Комментарий №3</p>
+	   </div>
+   
+	</div>
+	
+
+
+
+
+
+
+
+
+
+</div>
+
+</body>
+</html>

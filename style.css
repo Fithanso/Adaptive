@@ -1,0 +1,517 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font: 100%/1.5em Arial, Helvetica, sans-serif;
+	color: #000;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#logo {
+	width: 120px;
+	height: 120px;
+	background: url(http://www.bgpics.ru/pictures/1920x1080/6311-eda-limon-i-laym-1920x1080.jpg);
+	border: 1px solid transparent;
+	border-radius: 50%;
+	text-align: center;
+	background-size: cover;
+	margin-left: 5%;
+}
+
+#menu {
+	line-height: 300%;
+	text-align: left;
+	margin-left: 5%;
+	margin-top: 20px;
+}
+
+#aside {
+	height: 500px;
+}
+
+#wrap {
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 6%;
+}
+
+
+
+#main {
+	height: 100%;
+	background: #8D8C8C;
+	float: right;
+}
+
+.divs_4 {
+	background-color: #D0CFCF;
+	height: 6%;
+}
+
+#first {
+	border-right: 1px solid grey;
+}
+
+#second {
+	border-right: 1px solid grey;
+}
+
+#third {
+	border-right: 1px solid grey;
+}
+
+.div_text {
+	margin-top: 4%;
+	margin-left: 2%;
+	text-align: left;
+}
+
+.div_text p {
+	margin-top: 4%; 
+}
+
+.div_text h4 {
+	margin-top: 5%;
+	text-align: center;
+}
+
+#red {
+	height: 60px;
+	margin-top: 2%;
+	border-top: 1px dashed grey;
+	border-bottom: 1px dashed grey;
+}
+
+#middle_text {
+	font-size: 0.8em;
+	float: left;
+	margin-left: 2%;
+	margin-top: 1%;
+	width: 500px;
+	text-align: left;
+}
+
+#email {
+	width: 150px;
+	height: 2em;
+	border: 2px ridge grey; 
+}
+
+#sub_button {
+	width: 80px;
+	height: 2em;
+	border: 1px solid transparent;
+	border-radius: 5%;
+}
+
+#forms {
+	display: inline-block;
+	margin-top: 1%;
+}
+
+#lower {
+	height: 40%;
+	margin-top: 10%;
+}
+
+.lower_divs {
+	height: 40%;
+	background-color: #AEADAD;
+	margin-top: 2%;
+	padding: 0.5%;
+}
+
+#sixth {
+	margin-left: 2%;
+}
+
+#seventh {
+	margin-left: 2%;
+}
+
+#eighth {
+	margin-left: 2%;
+}
+
+.img_div {
+	padding: 3%;
+	width: 100%;
+	height: 140px;
+	border: 1px solid grey
+}
+
+.lower_text {
+	text-align: left;
+	margin-top: 2%;
+}
+
+.lower_text p {
+	font-size: 0.9em;
+}
+
+.date {
+	font-size: 0.8em;
+	color: grey;
+	float: left;
+}
+
+#links {
+	margin-top: 10%;
+}
+
+.comlinks {
+	width: 150px;
+	height: 20px;
+	border-radius: 5px;
+}
+
+#comments {
+	position: absolute;
+	float: left;
+	margin-top: 50px;
+	margin-left: 1%;
+	
+}
+
+.container {
+	min-width: 350px;
+	background: #E6E4E4;
+	width: 93%;
+	margin: 2% auto;
+	height: 2000px;
+	/*display: table;принятие размера блока по размеру контента*/
+}
+
+.container .cols {
+	float: left;
+	text-align: center;
+}
+
+.container .col-1{/*.container .col-1*/
+	width: 8.333333333333332%;
+}
+.container .col-2{
+	width: 16.666666667%;
+}
+.container .col-3{
+	width: 25%;
+}
+.container .col-4{
+	width: 33.333333333%;
+}
+.container .col-5{
+	width: 41.666666667%;
+}
+.container .col-6{
+	width: 50%;
+}
+.container .col-7{
+	width: 58.333333333%;
+}
+.container .col-8{
+	width: 66.666666667%;
+}
+.container .col-9{
+	width: 75%;
+}
+.container .col-10{
+	width: 83.333333333%;
+}
+.container .col-11{
+	width: 91.666666667%;
+}
+.container .col-12{
+	width: 100%;
+}
+
+.container .col-13{
+	width: 23.5%;
+}
+
+@media screen and (max-width: 1170px) {
+	.lower_divs {
+		height: 43%;
+	}
+}
+
+@media screen and (max-width: 1130px) {
+	#red {
+		height: 95px;
+	}
+
+	#forms {
+		float: left;
+		margin-left: 10%;
+		margin-top: 0.5%;
+	}
+
+	#middle_text {
+		margin-left: 10%;
+	}
+
+}
+
+
+@media screen and (max-width: 1080px) {
+
+	.img_div {
+		height: 108px;
+
+	}
+
+	.img_div img {
+		height: 100px;
+	}
+
+	.lower_divs {
+		height: 39%;
+	}
+}
+
+@media screen and (max-width: 995px) {
+	#wrap {
+		margin-left: 4%;
+	}
+
+	.lower_divs {
+		height: 42%;
+	}
+}
+
+@media screen and (max-width: 960px) {
+
+
+
+	#forms {
+		margin-left: 5%;
+	}
+
+	#middle_text {
+		margin-left: 5%;
+	}
+}
+
+@media screen and (max-width: 900px) {
+
+	#logo {
+		margin-left: 4%;
+	}
+
+	.container .cols .col-13 {
+		width: 49%;
+	}
+
+	.img_div {
+	width: 100%;
+	height: 160px;
+	}
+
+	.img_div img {
+		height: 100%;
+	}
+
+	#seventh {
+	margin-left: 0%;
+    }
+
+}
+
+@media screen and (max-width: 780px) {
+
+	#wrap {
+		margin-left: 4%;
+	}
+
+	#forms {
+		margin-left: 1%;
+	}
+
+	#middle_text {
+		width: 400px;
+		margin-left: 1%;
+	}
+
+}
+
+@media screen and (max-width: 730px) {
+	#wrap {
+		margin-left: 2%;
+	}
+}
+
+@media screen and (max-width: 680px) {
+	#logo {
+		margin-left: 1%;
+	}
+
+	.feast {
+		visibility: hidden;
+	}
+
+	.divs_4 {
+		height: 2%;
+	}
+
+	.div_text h4 {
+		margin-top: 2%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+
+	#aside {
+		height: 200px;
+		width: 100%;
+	}
+
+	.div_text {
+		margin-top: 1%;
+	}
+
+	#main {
+		width: 100%;
+	}
+
+	.navelement {
+		 display: inline-block; 
+	}
+
+	#menu {
+		width: 500px;
+		margin-top: 2%;
+		margin-left: 18%;/*888888888888888888888888888888888888888888*/
+	}
+
+	.navelement {
+		font-size: 0.9em;
+		margin-left: 7px;
+	}
+
+	#logo {
+		margin-top: -2%;
+		margin-left: 40%;
+	}
+
+	.divs_4 {
+		height: 1.5%;
+	}
+}
+
+@media screen and (max-width: 580px) {
+	/*#menu {
+		margin-left: 30%;
+	}*/
+}
+
+@media screen and (max-width: 570px) {
+	/*#logo {
+		margin-left: 1%;
+	}
+
+	#main {
+		margin-top: 20%;
+	}
+
+	#menu {
+		margin-top: 9%;
+		margin-left: 27%;
+		
+	}*/
+}
+
+@media screen and (max-width: 520px) {
+	/*#main {
+		margin-top: 1%;
+	}
+
+	#aside {
+		height: 180px;
+	}
+
+	#logo {
+		margin-left: 3%;
+	}
+
+	#menu {
+	    width: 400px;
+        margin-top: 30%;
+        margin-left: 3%;
+	}*/
+
+}
+
+@media screen and (max-width: 445px) {
+	#menu {
+		margin-top: 35%;
+	}
+
+	.div_text h4 {
+		font-size: 0.9em;
+	}
+
+	#middle_text {
+		width: 330px;
+	}
+
+	#red {
+		height: 110px;
+	}
+
+	.img_div {
+	width: 100%;
+	height: 130px;
+	}
+}
+
+@media screen and (max-width: 380px) {
+	.div_text h4 {
+		font-size: 0.8em;
+	}
+
+	.container .cols .col-13 {
+		width: 100%;
+	}
+
+	#sixth {
+		margin-left: 0%;
+	}
+
+	#eighth {
+		margin-left: 0%;
+	}
+
+	.img_div {
+		height: 60%;
+	}
+
+	.lower_divs {
+		height: 80%;
+	}
+
+	#menu {
+		margin-left: 0.1%;
+	}
+}
+
+
+
+
+
+
+
